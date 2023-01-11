@@ -1,17 +1,17 @@
-function SocialLinc() {
+import '../assets/scss/SocialLinc.scss';
+
+function SocialLinc(props) {
 	return (
-		<div className='social__wrapper'>
-			<picture>
-				<source srcset='' type='image/webp' />
-				<img
-					className='social__img'
-					width='46'
-					height='37'
-					src=''
-					alt='social'
-				></img>
-			</picture>
-		</div>
+		<a
+			class='social__link'
+			href={props.site}
+			target='_blank'
+			rel='noindex, nofollow, noreferrer, noopener'
+		>
+			<svg class='social__link-svg'>
+				<use class='social__link-icon' xlinkHref={props.sprite}></use>
+			</svg>
+		</a>
 	);
 }
 

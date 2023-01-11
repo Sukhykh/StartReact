@@ -1,3 +1,6 @@
+import '../assets/scss/Logo.scss';
+import onWave from '../assets/img/logo.png';
+
 function Logo() {
 	return (
 		<div className='logo__wrapper'>
@@ -7,7 +10,7 @@ function Logo() {
 					className='logo__img'
 					width='181'
 					height='37'
-					src=''
+					src={onWave}
 					alt='logo'
 				></img>
 			</picture>

@@ -1,11 +1,14 @@
 import NewsItem from './NewsItem';
+import Title from './Title';
+
+import '../assets/scss/News.scss';
 
 function News() {
 	return (
-		<header className='news'>
+		<div className='news'>
 			<div className='news__container'>
 				<div className='news__wrapper'>
-					<h1 className='news__title'>News</h1>
+					<Title title='News' />
 					<div className='news__item'>
 						<NewsItem />
 						<NewsItem />
@@ -13,7 +16,7 @@ function News() {
 					</div>
 				</div>
 			</div>
-		</header>
+		</div>
 	);
 }
 

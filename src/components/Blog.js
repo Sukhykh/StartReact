@@ -1,11 +1,14 @@
 import BlogItem from './BlogItem';
+import Title from './Title';
+
+import '../assets/scss/Blog.scss';
 
 function Blog() {
 	return (
-		<header className='blog'>
+		<div className='blog'>
 			<div className='blog__container'>
 				<div className='blog__wrapper'>
-					<h1 className='blog__title'>Blog</h1>
+					<Title title='Blog' />
 					<div className='blog__item'>
 						<BlogItem />
 						<BlogItem />
@@ -14,7 +17,7 @@ function Blog() {
 					</div>
 				</div>
 			</div>
-		</header>
+		</div>
 	);
 }
 
