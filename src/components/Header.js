@@ -41,23 +41,23 @@ function Header() {
 					<h1 className='header__title'>Blog name</h1>
 					<div className='header__social-bar'>
 						<SocialLinc
-							sprite='../assets/img/sprite.svg#instagram'
+							sprite={sprite + '#instagram'}
 							site='https://www.instagram.com/'
 						/>
 						<SocialLinc
-							sprite='../assets/img/sprite.svg#facebook'
+							sprite={sprite + '#facebook'}
 							site='https://www.facebook.com/'
 						/>
 						<SocialLinc
-							sprite='../assets/img/sprite.svg#pinterest'
+							sprite={sprite + '#pinterest'}
 							site='https://www.pinterest.com/'
 						/>
 						<SocialLinc
-							sprite='../assets/img/sprite.svg#twitter'
+							sprite={sprite + '#twitter'}
 							site='https://twitter.com/'
 						/>
 						<SocialLinc
-							sprite='../assets/img/sprite.svg#youtube'
+							sprite={sprite + '#youtube'}
 							site='https://www.youtube.com/'
 						/>
 					</div>

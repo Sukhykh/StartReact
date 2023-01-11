@@ -1,8 +1,7 @@
 .social__link {
     width: 46px;
     height: 37px;
-    background-color: #E7EFD6;
-    border-radius: 5px;
+    border-radius: 10px;
 
     transition: all 0.3s linear;
 
@@ -25,41 +24,20 @@
             fill: transparent;
         }
     }
-}
-
-/*
-
-
-&__link {
-
-
-
-
-
-
 
     &:hover,
     &:focus {
-        & .footer__link-icon {
-            fill: $tomatoLight;
+        & .social__link-icon {
+            fill: #ffffff;
         }
 
-        & .footer__link-icon--another {
-            stroke: $tomatoLight;
+        & .social__link-icon--another {
+            stroke: #ffffff;
+            fill: transparent;
         }
     }
 
     &:active {
-        & .footer__link-icon {
-            fill: $brownLight;
-        }
-
-        & .footer__link-icon--another {
-            stroke: $brownLight;
-        }
-
-        box-shadow: 0 0 1rem 1rem $tomatoLight;
-        background-color: $tomatoLight;
-        border-radius: 50%
+        box-shadow: 0 0 5px 5px #ffffff;
     }
-}*/
+}
