@@ -1,6 +1,6 @@
 import Logo from './Logo';
 import SocialLinc from './SocialLinc';
-import '../assets/scss/Header.scss';
+import '../assets/scss/_Header.scss';
 import sprite from '../assets/img/sprite.svg';
 /*
 let social = [

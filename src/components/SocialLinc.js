@@ -1,4 +1,4 @@
-import '../assets/scss/SocialLinc.scss';
+import '../assets/scss/_SocialLinc.scss';
 
 function SocialLinc(props) {
 	let classNameValue = '';

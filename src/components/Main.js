@@ -2,7 +2,7 @@ import Banner from './Banner';
 import Blog from './Blog';
 import News from './News';
 
-import '../assets/scss/Main.scss';
+import '../assets/scss/_Main.scss';
 
 function Main() {
 	return (

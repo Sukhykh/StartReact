@@ -1,7 +1,7 @@
 import BlogItem from './BlogItem';
 import Title from './Title';
 
-import '../assets/scss/Blog.scss';
+import '../assets/scss/_Blog.scss';
 
 function Blog() {
 	return (

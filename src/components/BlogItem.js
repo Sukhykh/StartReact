@@ -1,4 +1,4 @@
-import '../assets/scss/BlogItem.scss';
+import '../assets/scss/_BlogItem.scss';
 
 function BlogItem() {
 	return <div className='blog-item__wrapper'>One more Lorem ipsum</div>;

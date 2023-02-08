@@ -1,4 +1,4 @@
-import '../assets/scss/Logo.scss';
+import '../assets/scss/_Logo.scss';
 import onWave from '../assets/img/logo.png';
 
 function Logo() {

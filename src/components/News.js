@@ -1,7 +1,7 @@
 import NewsItem from './NewsItem';
 import Title from './Title';
 
-import '../assets/scss/News.scss';
+import '../assets/scss/_News.scss';
 
 function News() {
 	return (
